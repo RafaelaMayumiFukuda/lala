@@ -1,0 +1,81 @@
+*{
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+header{
+    background-color: aqua;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holder{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    height: 350px;
+    background-color: aqua;
+    box-shadow: 0px 0px 20px rgb(12, 116, 52);
+    align-items: center;
+    padding: 10px;
+    padding-right: 0px;
+}
+.card-holder{
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+.card-holder::-webkit-scrollbar {
+    background: transparent;
+    border-radius: 10px;
+    height: 10px;
+}
+.card-holder::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.card{
+    height: 200px;
+    min-width: 150px;
+    align-items: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 5px;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+header img{
+    height: 50px;
+    width: 50px;
+}
+footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
